@@ -31,6 +31,7 @@ public class ConstantSpeedMovable implements MovableObject {
 		return (distance/speed)*60;
 	}
 	
+	//getter
 	public double getSpeed() {
 		return speed;
 	}
